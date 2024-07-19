@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" id="home-link" class="logo">Portfolio</a>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+                    <li><a href="#projects" class="nav-link" data-page="projects">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main id="main-content" role="main">
+        <div class="container">
+
+
+            <!-- Home -->
+            <section id="home" class="section page-section">
+                <h1>ようこそ、○○○○のPortfolioへ</h1>
+                <p>情報系を学ぶ大学生エンジニア。Web開発とデータサイエンスに情熱を注いでいます。</p>
+            </section>
+
+
+            <!-- About -->
+            <section id="about" class="section page-section">
+                <h2>About Me</h2>
+                <div class="profile-content">
+                    <div class="profile-text">
+                        <p>
+                            所属：岐阜大学大学院　自然科学技術研究科　知能理工学専攻　知能情報学領域<br>
+                            学年：1年<br>
+                            氏名：松田治真<br><br>
+                            Webアプリケーション開発の経験を活かし、クラウド技術を駆使したWebアプリやスマートフォンアプリの開発に強い関心を持っています。
+                            また、近年急速に発展している大規模言語モデル（LLM）技術にも注目しており、最新のテクノロジーを取り入れた革新的なソリューションの創造に意欲的です。
+                        </p>
+
+                        <div class="skills-section">
+                            <h3>Skills</h3>
+
+                            <ul class="skill-categories">
+                                <li class="skill-category">
+                                    <span class="category-name">Web開発</span>
+                                    <div class="skill-list">
+                                        <ul class="skill-names">
+                                            <li>HTML/CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>jQuery</li>
+                                            <li>vue.js</li>
+                                            <li>PHP</li>
+                                            <li>MySQL</li>
+                                        </ul>
+                                        <ul class="skill-years">
+                                            <li>1年</li>
+                                            <li>1年</li>
+                                            <li>1年</li>
+                                            <li>6ヶ月</li>
+                                            <li>1年</li>
+                                            <li>1年</li>
+                                        </ul>
+                                        <ul class="skill-levels">
+                                            <li>★★★☆☆</li>
+                                            <li>★★★★☆</li>
+                                            <li>★★★☆☆</li>
+                                            <li>★★★☆☆</li>
+                                            <li>★★★★☆</li>
+                                            <li>★★★☆☆</li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="skill-category">
+                                    <span class="category-name">プログラミング言語</span>
+                                    <div class="skill-list">
+                                        <ul class="skill-names">
+                                            <li>Python</li>
+                                            <li>Java</li>
+                                        </ul>
+                                        <ul class="skill-years">
+                                            <li>4年</li>
+                                            <li>2年</li>
+                                        </ul>
+                                        <ul class="skill-levels">
+                                            <li>★★★★☆</li>
+                                            <li>★★★☆☆</li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="skill-category">
+                                    <span class="category-name">その他</span>
+                                    <div class="skill-list">
+                                        <ul class="skill-names">
+                                            <li>Live2D</li>
+                                            <li>Apache</li>
+                                        </ul>
+                                        <ul class="skill-years">
+                                            <li>1年</li>
+                                            <li>1年</li>
+                                        </ul>
+                                        <ul class="skill-levels">
+                                            <li>★★★☆☆</li>
+                                            <li>★★☆☆☆</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <h3>Contact</h3>
+                        <p>お問い合わせは以下のメールアドレスまでお願いします：</p>
+                        <p><a href="○○○○○@○○○○.com">○○○○○@○○○○.com</a></p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Project -->
+            <section id="projects" class="section page-section">
+                <h2>Projects</h2>
+                <div class="work-grid">
+                    <a href="#" class="work-item" data-project="project1">
+                        <img src="placeholder1.jpg" alt="プロジェクト1">
+                        <div class="work-content">
+                            <h3>Webアプリケーション開発</h3>
+                            <p>HTML / JavaScript / vue.js / jQuery / CSS / PHP / MySQL / Live2D</p>
+                        </div>
+                    </a>
+                    <a href="#" class="work-item" data-project="project2">
+                        <img src="placeholder2.jpg" alt="プロジェクト2">
+                        <div class="work-content">
+                            <h3>研究</h3>
+                            <p>Python / データ可視化</p>
+                        </div>
+                    </a>
+                    <a href="#" class="work-item" data-project="project3">
+                        <img src="placeholder3.jpg" alt="プロジェクト3">
+                        <div class="work-content">
+                            <h3>キッズプログラミング研究会</h3>
+                            <p>WebGL / JavaScript / Live2D</p>
+                        </div>
+                    </a>
+                    <a href="#" class="work-item" data-project="project4">
+                        <img src="placeholder4.jpg" alt="プロジェクト4">
+                        <div class="work-content">
+                            <h3>ハッカソン</h3>
+                            <p>WebGL / JavaScript / Live2D</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+
+            <!-- Project Details -->
+            <div id="project-details" class="section page-section" style="display:none;">
+                <!-- Project１ -->
+                <div id="project1" class="project-detail">
+                    <h2>個別最適化型教育支援Webアプリ</h2>
+                    <div class="project-content">
+                        <img src="path_to_your_image.jpg" alt="教育支援Webアプリケーション" class="project-image">
+
+                        <h3>概要</h3>
+                        <p>小学校授業用の個別最適化Webアプリを開発。生徒の選択に応じた問いかけ機能を実装。</p>
+
+                        <h3>役割</h3>
+                        <p>フロントエンド・バックエンド開発、UI設計</p>
+
+                        <h3>見どころ</h3>
+                        <ul>
+                            <li>生徒選択基づく最適化問いかけ</li>
+                            <li>直感的UI/UXデザイン</li>
+                            <li>回答データ管理システム</li>
+                            <li>クラス意見の視覚化機能</li>
+                        </ul>
+
+                        <h3>注力ポイント</h3>
+                        <p>個別最適化の実現方法に注力。Web技術の特性を活かし、効果的な教育支援を目指した。</p>
+
+                        <h3>エピソード</h3>
+                        <p>最適化アルゴリズム設計に苦心。教育心理学研究と現役教師へのインタビューを通じ、効果的な問いかけパターンを抽出・実装。</p>
+
+                        <h3>成果</h3>
+                        <ul>
+                            <li>複数小学校で実際の授業に導入 (<a href="#">詳細URL</a>)</li>
+                            <li>CCNチャンネルで教育革新例として紹介</li>
+                        </ul>
+
+                        <h3>今後の展望</h3>
+                        <p>LLM統合による更なる個別最適化を計画中</p>
+                    </div>
+                </div>
+                <!-- Project２ -->
+                <div id="project2" class="project-detail">
+                    <h2>AIエージェントの表情が人間の認知に与える影響研究</h2>
+                    <div class="project-content">
+                        <img src="path_to_your_image.jpg" alt="HAI研究のイメージ" class="project-image">
+
+                        <h3>概要</h3>
+                        <p>Human-Agent Interaction（HAI）分野で、AIエージェントの表情が人間の認知に与える影響を研究。</p>
+
+                        <h3>役割</h3>
+                        <p>研究設計、データ収集、分析、論文執筆</p>
+
+                        <h3>研究手法</h3>
+                        <ul>
+                            <li>Live2Dで2体のAIエージェントを作成</li>
+                            <li>様々な表情の会話シーンを設計</li>
+                            <li>被験者のエージェント関係性認知を調査</li>
+                            <li>3種類の笑顔を含む多様な表情の影響を分析</li>
+                        </ul>
+
+                        <h3>注力ポイント</h3>
+                        <p>特に笑顔の多様性に着目し、他の表情（怒り、悲しみ）との比較分析を実施。</p>
+
+                        <h3>主な発見</h3>
+                        <p>特定の笑顔が他の表情と同様の影響を与えることを発見。表情による認知の違いを明確化。</p>
+
+                        <h3>成果</h3>
+                        <ul>
+                            <li>HAIシンポジウムで研究発表 (<a href="#">発表詳細</a>)</li>
+                            <li>人工知能学会で論文発表 (<a href="#">論文リンク</a>)</li>
+                        </ul>
+
+                        <h3>研究の意義</h3>
+                        <p>現代のAI対話技術の進展に寄与し、より自然なAIエージェント開発への貢献が期待される。</p>
+                    </div>
+                </div>
+                <!-- Project３ -->
+                <div id="project3" class="project-detail">
+                    <h2>キッズプログラミング研究会の活動</h2>
+                    <div class="project-content">
+                        <img src="path_to_your_image.jpg" alt="キッズプログラミング研究会の様子" class="project-image">
+
+                        <h3>概要</h3>
+                        <p>小中高生にプログラミングの楽しさを伝える活動を実施。基礎から簡単なプログラム作成まで指導。</p>
+
+                        <h3>役割</h3>
+                        <p>プログラミング講師、メンター</p>
+
+                        <h3>活動内容</h3>
+                        <ul>
+                            <li>プログラミングの基礎教育</li>
+                            <li>個別レベルに合わせた指導</li>
+                            <li>簡単なプログラム作成の支援</li>
+                            <li>参加者とのコミュニケーション促進</li>
+                        </ul>
+
+                        <h3>注力ポイント</h3>
+                        <p>個々の学習者のレベルや性格に合わせた柔軟な指導方法の実践。参加者が質問しやすい雰囲気作り。</p>
+
+                        <h3>工夫した点</h3>
+                        <p>研究会メンバー間で参加者情報を共有し、一貫性のある指導を実現。参加者との積極的なコミュニケーションを心がけ、親しみやすい環境を構築。</p>
+
+                        <h3>成果</h3>
+                        <ul>
+                            <li>参加者の継続的な学習意欲向上</li>
+                            <li>プログラミングへの興味関心の拡大</li>
+                            <li>活動の詳細は<a href="#">こちら</a>でご覧いただけます</li>
+                        </ul>
+
+                        <h3>活動の意義</h3>
+                        <p>次世代のIT人材育成に貢献し、プログラミング教育の重要性を社会に発信。</p>
+                    </div>
+                </div>
+                <!-- Project４ -->
+                <div id="project4" class="project-detail">
+                    <h2>ハッカソンAichi：オフィスワーク改革プロジェクト</h2>
+                    <div class="project-content">
+                        <img src="path_to_your_image.jpg" alt="ハッカソンでの開発の様子" class="project-image">
+
+                        <h3>概要</h3>
+                        <p>ハッカソンAichiに参加。テーマ「ルーチンワークにやりがいを持たせよう」に基づき、オフィスワークの効率化・動機付けシステムを開発。</p>
+
+                        <h3>役割</h3>
+                        <p>チーム開発メンバー（具体的な役割があれば記載）</p>
+
+                        <h3>開発内容</h3>
+                        <ul>
+                            <li>AIを活用した社内専用チャットボット</li>
+                            <li>社内専用質問掲示板</li>
+                            <li>ポイント交換システム</li>
+                        </ul>
+
+                        <h3>注力ポイント</h3>
+                        <p>事務作業の効率化とやりがい創出の両立。チャットボット、掲示板、ポイントシステムの連携による相乗効果の実現。</p>
+
+                        <h3>工夫した点</h3>
+                        <ul>
+                            <li>掲示板の内容をチャットボットに学習させ、性能向上を図った</li>
+                            <li>ポイント制度導入によるユーザーモチベーション向上</li>
+                            <li>3つの機能を有機的に連携させ、総合的な業務改善を目指した</li>
+                        </ul>
+
+                        <h3>成果と学び</h3>
+                        <ul>
+                            <li>短期間での機能実装と統合を達成</li>
+                            <li>チーム開発の楽しさとやりがいを実感</li>
+                            <li>実践的な問題解決スキルの向上</li>
+                        </ul>
+
+                        <h3>反省と今後の課題</h3>
+                        <p>賞は獲得できなかったが、改善点を分析し、今後のプロジェクトに活かす。ユーザビリティやビジネス価値の更なる向上が課題。</p>
+                    </div>
+                </div>
+                <!-- Project テンプレート -->
+                <!-- <div id="project1" class="project-detail">
+                    <h2></h2>
+                    <div class="project-content">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ○○○○. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
